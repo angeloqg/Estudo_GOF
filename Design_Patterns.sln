@@ -9,25 +9,29 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arquitectural_Patterns", "A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioural_Patterns", "Behavioural_Patterns", "{88827B1D-0E29-4AF6-A1A6-FDC91B537E3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExecutePatterns", "src\Criational_Patterns\ExecutePatterns\ExecutePatterns.csproj", "{48057E8A-F3FE-4284-9E70-AF42DE223474}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExecutePatterns", "src\Criational_Patterns\ExecutePatterns\ExecutePatterns.csproj", "{48057E8A-F3FE-4284-9E70-AF42DE223474}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExecutePatterns", "src\Behavioural_Patterns\ExecutePatterns\ExecutePatterns.csproj", "{66585B50-3514-40BD-832C-C2C7780CE246}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExecutePatterns", "src\Behavioural_Patterns\ExecutePatterns\ExecutePatterns.csproj", "{66585B50-3514-40BD-832C-C2C7780CE246}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExecutePatterns", "src\Arquitectural_Patterns\ExecutePatterns\ExecutePatterns.csproj", "{1C6739FF-9670-47DF-AC5F-2C511518F115}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExecutePatterns", "src\Arquitectural_Patterns\ExecutePatterns\ExecutePatterns.csproj", "{1C6739FF-9670-47DF-AC5F-2C511518F115}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple_Factory", "src\Criational_Patterns\Simple_Factory\Simple_Factory.csproj", "{AF026689-4096-4647-B582-CCE599D3C27A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Simple_Factory", "src\Criational_Patterns\Simple_Factory\Simple_Factory.csproj", "{AF026689-4096-4647-B582-CCE599D3C27A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory_Method", "src\Criational_Patterns\Factory_Method\Factory_Method.csproj", "{937B81B4-B65D-4073-B350-E383358E9090}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory_Method", "src\Criational_Patterns\Factory_Method\Factory_Method.csproj", "{937B81B4-B65D-4073-B350-E383358E9090}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract_Factory", "src\Criational_Patterns\Abstract_Factory\Abstract_Factory.csproj", "{E02D13B0-03B2-4298-83D1-B3A898CB6E0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abstract_Factory", "src\Criational_Patterns\Abstract_Factory\Abstract_Factory.csproj", "{E02D13B0-03B2-4298-83D1-B3A898CB6E0F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Patterns", "Patterns", "{F3148093-3703-4C3D-9882-176E7E773D57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "src\Criational_Patterns\Singleton\Singleton.csproj", "{5E5A7F9F-43CF-4F86-BC9F-D020D378FEFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "src\Criational_Patterns\Singleton\Singleton.csproj", "{5E5A7F9F-43CF-4F86-BC9F-D020D378FEFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "src\Criational_Patterns\Prototype\Prototype.csproj", "{F48D7E6D-7683-42FA-B254-E258D3E26EB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "src\Criational_Patterns\Prototype\Prototype.csproj", "{F48D7E6D-7683-42FA-B254-E258D3E26EB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "src\Criational_Patterns\Builder\Builder.csproj", "{D9DA5B44-6D2E-4F9B-A9B3-1A0B07EA3305}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "src\Criational_Patterns\Builder\Builder.csproj", "{D9DA5B44-6D2E-4F9B-A9B3-1A0B07EA3305}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Patterns", "Patterns", "{98D134E6-048F-425F-AA13-9CFB4C874C02}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Patterns", "Patterns", "{F00FF2BE-7F73-4D0E-B2FE-F3CB55BC35EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -86,6 +90,8 @@ Global
 		{5E5A7F9F-43CF-4F86-BC9F-D020D378FEFF} = {F3148093-3703-4C3D-9882-176E7E773D57}
 		{F48D7E6D-7683-42FA-B254-E258D3E26EB0} = {F3148093-3703-4C3D-9882-176E7E773D57}
 		{D9DA5B44-6D2E-4F9B-A9B3-1A0B07EA3305} = {F3148093-3703-4C3D-9882-176E7E773D57}
+		{98D134E6-048F-425F-AA13-9CFB4C874C02} = {33007B0B-121A-45A3-B387-62D9D5CEAC2A}
+		{F00FF2BE-7F73-4D0E-B2FE-F3CB55BC35EF} = {88827B1D-0E29-4AF6-A1A6-FDC91B537E3E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9DC398E6-C4BA-4D97-A3F1-793471AF9299}
