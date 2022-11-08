@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Simple_Factory;
+using System;
 
 namespace ExecutePatterns
 {
@@ -6,7 +7,8 @@ namespace ExecutePatterns
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // Simple Factory
+            PizzariaClient.SolicitarPedido();
         }
     }
 }

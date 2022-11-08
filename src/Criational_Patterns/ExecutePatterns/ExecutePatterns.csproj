@@ -5,4 +5,13 @@
     <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Abstract_Factory\Abstract_Factory.csproj" />
+    <ProjectReference Include="..\Builder\Builder.csproj" />
+    <ProjectReference Include="..\Factory_Method\Factory_Method.csproj" />
+    <ProjectReference Include="..\Prototype\Prototype.csproj" />
+    <ProjectReference Include="..\Simple_Factory\Simple_Factory.csproj" />
+    <ProjectReference Include="..\Singleton\Singleton.csproj" />
+  </ItemGroup>
+
 </Project>
