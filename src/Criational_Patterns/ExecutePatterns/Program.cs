@@ -1,5 +1,4 @@
-﻿using Simple_Factory;
-using System;
+﻿using Factory_Method;
 
 namespace ExecutePatterns
 {
@@ -7,8 +6,11 @@ namespace ExecutePatterns
     {
         static void Main(string[] args)
         {
-            // Simple Factory
-            PizzariaClient.SolicitarPedido();
+           // Simple Factory
+           // PizzariaClient.SolicitarPedido();
+
+           // Factory Method
+           //PizzariaLocalClient.SolicitarPedido();
         }
     }
 }
