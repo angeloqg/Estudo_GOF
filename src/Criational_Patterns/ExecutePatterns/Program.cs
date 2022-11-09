@@ -1,4 +1,5 @@
 ﻿using Abstract_Factory;
+using Builder;
 using Factory_Method;
 
 namespace ExecutePatterns
@@ -14,7 +15,10 @@ namespace ExecutePatterns
             //PizzariaLocalClient.SolicitarPedido();
 
             // Abstract Factory
-            MassaFactoryClient.ExibeProdutos();
+            //MassaFactoryClient.ExibeProdutos();
+
+            // Builder
+            //PizzariaBuilder.GeraPizza();
         }
     }
 }
