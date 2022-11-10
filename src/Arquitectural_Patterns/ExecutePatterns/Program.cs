@@ -1,4 +1,4 @@
-﻿using System;
+﻿using Adapter;
 
 namespace ExecutePatterns
 {
@@ -6,7 +6,8 @@ namespace ExecutePatterns
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // Adapter
+            ClientAdapter.ExecutarAdapter();
         }
     }
 }
