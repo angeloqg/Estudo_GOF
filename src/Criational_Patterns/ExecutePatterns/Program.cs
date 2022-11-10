@@ -1,6 +1,7 @@
 ﻿using Abstract_Factory;
 using Builder;
 using Factory_Method;
+using Prototype;
 
 namespace ExecutePatterns
 {
@@ -19,6 +20,9 @@ namespace ExecutePatterns
 
             // Builder
             //PizzariaBuilder.GeraPizza();
+
+            // Prototype
+            //ExecutarPrototype.Clonar();
         }
     }
 }
