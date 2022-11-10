@@ -6,7 +6,7 @@ namespace Adapter
 {
     public static class ClientAdapter
     {
-        public static void ExecutarAdapter()
+        public static void ExecutaPattern()
         {
             string[,] alunosArray = new string[5, 4] 
             {
