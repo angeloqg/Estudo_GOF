@@ -2,6 +2,7 @@
 using Builder;
 using Factory_Method;
 using Prototype;
+using Singleton;
 
 namespace ExecutePatterns
 {
@@ -23,6 +24,9 @@ namespace ExecutePatterns
 
             // Prototype
             //ExecutarPrototype.Clonar();
+
+            // Singleton
+            //ExecutandoSingleton.ExecutaConexaoBanco();
         }
     }
 }
