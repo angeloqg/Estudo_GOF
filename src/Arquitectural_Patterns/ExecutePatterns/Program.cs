@@ -1,4 +1,5 @@
 ﻿using Adapter;
+using Bridge;
 
 namespace ExecutePatterns
 {
@@ -7,7 +8,10 @@ namespace ExecutePatterns
         static void Main(string[] args)
         {
             // Adapter
-            ClientAdapter.ExecutarAdapter();
+            //ClientAdapter.ExecutaPattern();
+
+            // Bridge
+            ClientBridge.ExecutaPattern();
         }
     }
 }
