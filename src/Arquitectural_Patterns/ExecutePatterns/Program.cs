@@ -1,5 +1,6 @@
 ﻿using Adapter;
 using Bridge;
+using Composite;
 
 namespace ExecutePatterns
 {
@@ -11,7 +12,10 @@ namespace ExecutePatterns
             //ClientAdapter.ExecutaPattern();
 
             // Bridge
-            ClientBridge.ExecutaPattern();
+            //ClientBridge.ExecutaPattern();
+
+            // Composite
+            //ClientComposite.ExecutaPattern();
         }
     }
 }
