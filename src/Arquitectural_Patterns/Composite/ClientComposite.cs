@@ -6,7 +6,7 @@ namespace Composite
 {
     public static class ClientComposite
     {
-        public static void ExecutaPattern()
+        public static void ExecutPattern()
         {
             Console.WriteLine("Criando a estrutura da empresa - Composite");
             Console.WriteLine(">>> Adicionando departamentos de TI e Compatibilidade");

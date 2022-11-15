@@ -9,13 +9,13 @@ namespace ExecutePatterns
         static void Main(string[] args)
         {
             // Adapter
-            //ClientAdapter.ExecutaPattern();
+            //ClientAdapter.ExecutPattern();
 
             // Bridge
-            //ClientBridge.ExecutaPattern();
+            //ClientBridge.ExecutPattern();
 
             // Composite
-            //ClientComposite.ExecutaPattern();
+            //ClientComposite.ExecutPattern();
         }
     }
 }

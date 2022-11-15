@@ -7,7 +7,7 @@ namespace Bridge
 {
     public static class ClientBridge
     {
-        public static void ExecutaPattern()
+        public static void ExecutPattern()
         {
             // RedefineAbstraction recebe via construtor em tempo de execução
             // o tipo específico de formato para gerar o arquivo
