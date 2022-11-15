@@ -1,6 +1,7 @@
 ﻿using Adapter;
 using Bridge;
 using Composite;
+using Decorator;
 
 namespace ExecutePatterns
 {
@@ -16,6 +17,9 @@ namespace ExecutePatterns
 
             // Composite
             //ClientComposite.ExecutPattern();
+
+            // Decotador
+            ClientDecorator.ExecutPattern();
         }
     }
 }
