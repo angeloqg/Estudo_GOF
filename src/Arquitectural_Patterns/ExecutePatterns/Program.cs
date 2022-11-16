@@ -2,6 +2,7 @@
 using Bridge;
 using Composite;
 using Decorator;
+using Facade;
 
 namespace ExecutePatterns
 {
@@ -19,7 +20,10 @@ namespace ExecutePatterns
             //ClientComposite.ExecutPattern();
 
             // Decotador
-            ClientDecorator.ExecutPattern();
+            // ClientDecorator.ExecutPattern();
+
+            // Facade
+            //ClientFacade.ExecutPattern();
         }
     }
 }
