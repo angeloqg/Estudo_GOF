@@ -20,7 +20,7 @@ namespace Flyweight.ConcreteFlyweight
 
         public void Desenhar()
         {
-            Console.WriteLine($"Círculo: Desenhar() [Cor: {Cor}] x:{x}, y:{y}, raio:{raio}");
+            Console.WriteLine($"Círculo: Desenhar() [Cor: {Cor} x:{x}, y:{y}, raio:{raio}]");
         }
     }
 }
