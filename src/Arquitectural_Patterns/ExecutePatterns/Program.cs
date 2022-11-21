@@ -3,6 +3,7 @@ using Bridge;
 using Composite;
 using Decorator;
 using Facade;
+using Flyweight;
 
 namespace ExecutePatterns
 {
@@ -24,6 +25,9 @@ namespace ExecutePatterns
 
             // Facade
             //ClientFacade.ExecutPattern();
+
+            // Flyweight
+            //ClientFlyweight.ExecutPattern();
         }
     }
 }
