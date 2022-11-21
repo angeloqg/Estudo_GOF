@@ -4,6 +4,7 @@ using Composite;
 using Decorator;
 using Facade;
 using Flyweight;
+using Proxy;
 
 namespace ExecutePatterns
 {
@@ -28,6 +29,9 @@ namespace ExecutePatterns
 
             // Flyweight
             //ClientFlyweight.ExecutPattern();
+
+            // Proxy
+            //ClientProxy.ExecutPattern();
         }
     }
 }
